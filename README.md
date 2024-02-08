@@ -14,3 +14,10 @@ To use my LazyVim configuration, follow these simple steps:
    ```bash
    nvim
    ```
+
+## Why LazyVim?
+
+Ah, the name says it all! After years of tinker with various Vim
+configurations, trying out countless plugins, and endless tweaking settings,
+I've reached a point where I just want to focus on coding and not on
+configuring my editor
