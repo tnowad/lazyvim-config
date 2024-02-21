@@ -33,4 +33,17 @@ return {
       vim.list_extend(opts.ensure_installed, { "cmakelang", "cmakelint" })
     end,
   },
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        neocmake = {},
+      },
+    },
+  },
+  {
+    "Civitasv/cmake-tools.nvim",
+    opts = {},
+    event = "LazyFile",
+  },
 }
