@@ -7,6 +7,7 @@ return {
       end
     end,
   },
+
   {
     "mason.nvim",
     opts = function(_, opts)
@@ -14,6 +15,7 @@ return {
       vim.list_extend(opts.ensure_installed, { "hadolint" })
     end,
   },
+
   {
     "nvimtools/none-ls.nvim",
     optional = true,
@@ -24,6 +26,7 @@ return {
       })
     end,
   },
+
   {
     "mfussenegger/nvim-lint",
     optional = true,
@@ -33,6 +36,7 @@ return {
       },
     },
   },
+
   {
     "neovim/nvim-lspconfig",
     opts = {

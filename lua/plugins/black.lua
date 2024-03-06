@@ -5,6 +5,7 @@ return {
       table.insert(opts.ensure_installed, "black")
     end,
   },
+
   {
     "nvimtools/none-ls.nvim",
     optional = true,
@@ -14,6 +15,7 @@ return {
       table.insert(opts.sources, nls.builtins.formatting.black)
     end,
   },
+
   {
     "stevearc/conform.nvim",
     optional = true,

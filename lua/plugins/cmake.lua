@@ -7,6 +7,7 @@ return {
       end
     end,
   },
+
   {
     "nvimtools/none-ls.nvim",
     optional = true,
@@ -17,6 +18,7 @@ return {
       })
     end,
   },
+
   {
     "mfussenegger/nvim-lint",
     optional = true,
@@ -26,6 +28,7 @@ return {
       },
     },
   },
+
   {
     "mason.nvim",
     opts = function(_, opts)
@@ -33,6 +36,7 @@ return {
       vim.list_extend(opts.ensure_installed, { "cmakelang", "cmakelint" })
     end,
   },
+
   {
     "neovim/nvim-lspconfig",
     opts = {
@@ -41,6 +45,7 @@ return {
       },
     },
   },
+
   {
     "Civitasv/cmake-tools.nvim",
     opts = {},
