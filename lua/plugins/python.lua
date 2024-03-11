@@ -75,6 +75,10 @@ return {
       if require("lazyvim.util").has("nvim-dap-python") then
         opts.dap_enabled = true
       end
+      vim.g.root_spec = vim.tbl_deep_extend("force", vim.g.root_spec, {
+        "lsp",
+        { "venv", ".venv", "env", ".env", ".git" },
+      })
       return vim.tbl_deep_extend("force", opts, {
         name = {
           "venv",
