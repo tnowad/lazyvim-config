@@ -1,6 +1,5 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.coding.copilot",
     "lazyvim.plugins.extras.lsp.none-ls"
   ],
   "news": {
